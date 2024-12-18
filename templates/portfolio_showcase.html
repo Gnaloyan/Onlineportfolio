@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Showcase</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Your Name</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/create_portfolio">Create Portfolio</a></li>
+                <li><a href="/portfolio_showcase">Showcase Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="portfolio-showcase">
+        <div class="showcase-header">
+            <h2>Your Portfolio</h2>
+        </div>
+
+        <div class="portfolio-details">
+            <h3>Name: <span>{{ name }}</span></h3>
+            <p><strong>Bio:</strong> {{ bio }}</p>
+            <p><strong>Skills:</strong> {{ skills }}</p>
+            <p><strong>Social Media:</strong> <a href="{{ social }}" target="_blank">{{ social }}</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gnel Aloyan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

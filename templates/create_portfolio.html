@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Your Name</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/create_portfolio">Create Portfolio</a></li>
+                <li><a href="/portfolio_showcase">Showcase Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="create-portfolio">
+        <h2>Create Your Portfolio</h2>
+        <form action="#" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="bio">Bio</label>
+            <textarea id="bio" name="bio" placeholder="Write a short bio about yourself" rows="4" required></textarea>
+
+            <label for="skills">Skills</label>
+            <input type="text" id="skills" name="skills" placeholder="List your skills" required>
+
+            <label for="social">Social Media Links</label>
+            <input type="url" id="social" name="social" placeholder="Add your social media link (e.g., LinkedIn)" required>
+
+            <button type="submit">Save Portfolio</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Gnel Aloyan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
