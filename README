@@ -1,0 +1,26 @@
+# Online Portfolio Builder
+
+A web-based application designed to help users create and showcase professional portfolios. This tool allows users to build their portfolio by integrating CV creation, project showcases, and social media links in an intuitive and user-friendly interface.
+
+## Features
+
+- **Portfolio Creation**: Create a professional portfolio by providing your name, bio, skills, and social media links.
+- **Project Showcase**: Add and display your projects to demonstrate your expertise.
+- **Responsive Design**: The app is designed to be mobile-friendly, ensuring users can create and view portfolios on any device.
+- **Easy Navigation**: Simple, elegant interface with clear navigation to easily access different sections.
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Python (Flask)
+- **Version Control**: Git
+- **Web Framework**: Flask
+- **Deployment**: Localhost or cloud-based platforms (e.g., Heroku)
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/Onlineportfolio.git
